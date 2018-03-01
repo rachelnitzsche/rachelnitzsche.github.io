@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title>... you know ;)</title>
+
+  <!-- This sets the initial view for mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style type="text/css" media="screen">
+    html {
+      /* Make iOS not resize on device rotation */
+      -ms-text-size-adjust: 100%; 
+      -webkit-text-size-adjust: 100%;
+
+      /* NOTE
+      html is set to 62.5% so that all the REM measurements throughout Skeleton
+      are based on 10px sizing. So basically 1.5rem = 15px  
+      
+      Change this if you want to base your REM measuements on something other 
+      than 10px as the base
+      */
+      font-size: 62.5%; 
+    }
+
+    body {
+      font-size: 1.7em; /* currently ems cause chrome bug misinterpreting rems on body element */
+      line-height: 1.6;
+      font-weight: 400;
+      margin: 0;
+    }
+
+    p {
+      margin-top: 1rem;
+      font-family: verdana;
+   }
+      
+    p.first {
+      margin-top:0;
+    }
+
+    h4 {
+      margin-top: 0rem;
+      margin-bottom: 2rem;
+      font-size: 2.4rem;
+      line-height: 1.35; 
+    }
+
+    h4.title {
+		font-style:italic;
+		font-size: 4rem;
+		font-family:verdana;
+      
+    }
+
+    h4.author {
+		font-family:verdana;
+      
+    }
+
+    .wrapper {
+      display:flex;
+    }
+
+    .column {
+      width: 50rem; /* Set your column width here */
+      margin: auto;
+    }
+
+    /* Larger than mobile */
+    @media (min-width: 400px) {
+    	.column {
+    		width: 100rem; /*set column width here?*/
+    	}
+    }
+
+    /* Larger than phablet */
+    @media (min-width: 550px) {}
+
+    /* Larger than tablet */
+    @media (min-width: 750px) {}
+
+    /* Larger than desktop */
+    @media (min-width: 1000px) {}
+
+    /* Larger than Desktop HD */
+    @media (min-width: 1200px) {}
+		
+    }
+    
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="column">
+        <h4 class="title">Razor Blade Typography</h4>
+        <h4 class="author">Angela Riechers</h4>
+        <p class="first">Paragraph one</p>
+        <p><em>the tag em gives you italic</em></p> 
+		<p><strong>the tag strong gives you bold</strong></p>
+		<p>i and b are being phased out of use sooo this is what's up now i guess lol</p>
+		<p>let her sleep</p>
+    </div>
+  </div>
+
+
+</body>
+</html>
