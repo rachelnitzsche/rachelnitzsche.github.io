@@ -40,7 +40,6 @@
 	  font-size: 1.8em;
 	  margin-left: 2.5rem;
 	  margin-right: 2.5rem;
-	  text-align:justify;
 	  hyphens:auto;
    }
       
@@ -73,8 +72,7 @@
 	ol {
 		margin-right: 1rem;
 		margin-right: 4rem;
-		font-size:1.8em;
-  	    text-align:justify;
+  	    font-size: 1.8em;
   	    hyphens:auto;
 	}
 
@@ -89,7 +87,7 @@
     }
 
     /* Larger than mobile */
-    @media (min-width: 400px) {
+    @media (min-width: 420px) {
     	.column {
     		width: 78rem; /*set column width here?*/
     	}
@@ -97,24 +95,57 @@
 			font-size: 1.6em;
 			
 		}
+		ol {font-size: 1.6em;}
     }
 
     /* Larger than phablet */
-    @media (min-width: 550px) {}
+    @media (min-width: 550px) {
+		.column {
+    		width: 78rem; /*set column width here?*/
+    	}
+		p {
+			font-size: 1.6em;
+			
+		}
+		ol {font-size: 1.6em;}
+	}
 
     /* Larger than tablet */
-    @media (min-width: 750px) {
-    	p {
-    		font-size: 1.6em; /* currently ems cause chrome bug misinterpreting rems on body element */
+    @media (min-width: 768px) {
+    	.column {
+    		width: 78rem; /*set column width here?*/
     	}
+		p {
+			font-size: 1.6em;
+			
+		}
+		ol {font-size: 1.6em;}
     }
 		
 
     /* Larger than desktop */
-    @media (min-width: 1000px) {}
+    @media (min-width: 1400px) {
+    	.column {
+    		width: 85rem; /*set column width here?*/
+    	}
+		p {
+			font-size: 1.8em;
+			
+		}
+		ol {font-size: 1.8em;}
+    }
 
-    /* Larger than Desktop HD */
-    @media (min-width: 1200px) {}
+    /* Larger than Desktop HD (4K and up) */
+    @media (min-width: 2560px) {
+    	.column {
+    		width: 95rem; /*set column width here?*/
+    	}
+		p {
+			font-size: 1.9em;
+			
+		}
+		ol {font-size: 1.9em;}
+    }
 		
     }
     
@@ -126,7 +157,7 @@
     <div class="column">
         <h4 class="title">RAZOR<br>BLADE<br>TYPOG-<br>RAPHY</h4>
         <h4 class="author">Angela Riechers</h4>
-        <p class="first">Along with all things artisanal, pasture-raised, single origin, and bespoke, safety razors are making a comeback. You know, the double-edged blade that screws into a razor head featuring a skin guard that makes shaving smoother and yes, safer. Economically speaking, safety razors offers a vast savings over disposable razors and cartridges: a year’s supply of 100 Shark brand blades costs under $10 (using two blades/week) compared to about $280 for cartridge refills. Safety razor blades are of much higher quality than disposable blades, and are sharper and longer-lasting, too.</p>
+        <p class="first">Along with all things artisanal, pasture-raised, single origin, and bespoke, safety razors are making a comeback. You know, the double-edged blade that screws into a razor head featuring a skin guard that makes shaving smoother and yes, safer. Economically speaking, safety razors offers a vast savings over disposable razors and cartridges: a year’s supply of 100 Shark brand blades costs under $10 (using two blades/ week) compared to about $280 for cartridge refills. Safety razor blades are of much higher quality than disposable blades, and are sharper and longer-lasting, too.</p>
         <p>However, our interest lies in the wealth of typography to be found on the blades’ packaging: colorful, cheerful, vernacular, and seemingly unchanged for decades. Places like the popular Dollar Shave Club and The Art of Shaving have adopted a more modern visual language for their branding, but there’s nothing quite as charming as the genuine article. Here’s an even eight examples, split between blades that are still available and some vintage packaging (because we just couldn’t resist).</p> 
 		
 		<ol>
